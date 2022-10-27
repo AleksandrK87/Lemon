@@ -1,0 +1,42 @@
+ @media  screen and (max-width: 1180px) {
+   .container {
+      width: 900px;
+   }
+   .contacts div {
+      margin-right: 20px;
+   }
+   #logo-header {
+      width: 120px;
+      height: 40px;
+      float: left;
+      margin-top: 22px;
+   }
+}
+
+@media screen and (max-width: 900px) {
+   .container {
+      width: 100%;
+   }
+   .contacts {
+      margin-top: 5px;
+   }
+   .contacts div {
+      float:none;
+   }
+} 
+
+@media screen and (max-width: 520px) {
+   #logo-header {
+      margin-left: auto;
+      margin-right: auto;
+      float:none;
+   }
+   .contacts {
+      margin-top: 5x;
+      float: none;
+   }
+   .header-top {
+      height: 130px;
+      text-align: center;
+   }
+}
